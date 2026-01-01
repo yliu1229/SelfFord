@@ -1,0 +1,26 @@
+num_workers: 4
+
+data:
+  root: "./NC2017/NC2017_Dev_Ver1_Img/"
+  dataset_name: "world"
+  crop_size: 64
+  patch_num: 2
+  QFs: [90, 70, 60, 50]
+  augment_image: False
+
+train:
+  batch_size: 512   # effective batch size is bs * gpus * res_w ** 2
+  max_epochs: 10
+  seed: 3407
+  exclude_norm_bias: True
+  num_levels: 17
+  out_channel: 1
+  ce_temperature: 1
+  lr_cnn: 0.000005
+  lr_head: 0.0005
+  final_lr: 0.
+  weight_decay: 0.04
+  weight_decay_end: 0.5
+  save_checkpoint_every_n_epochs: 1
+  dnCNN: #
+  checkpoint: #
