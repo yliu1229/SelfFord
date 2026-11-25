@@ -9,4 +9,4 @@ This is the PyTorch implementation of SelfForD.
 
 ### Pre-trained Model
 
-We provide our pre-trained model which can be downloaded by this <a href="https://pan.baidu.com/s/1s2lnan6D8rKtOiXETCbZ2A?pwd=6j5b">LINK</a>.
+We provide our pre-trained model which can be downloaded by this <a href="https://pan.baidu.com/s/1fE_61fCkgJccZ4icf4ci4A?pwd=gcz1">LINK</a>.
